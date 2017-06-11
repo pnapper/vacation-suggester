@@ -1,3 +1,18 @@
+#goal {
+  font-size: 18px;
+}
+#favorite {
+  font-size: 18px;
+}
+#cost {
+  font-size: 18px;
+}
+#food {
+  font-size: 18px;
+}
+#passport {
+  font-size: 18px;
+}
 #output {
   display: none;
 }
