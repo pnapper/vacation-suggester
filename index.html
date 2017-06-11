@@ -1,0 +1,58 @@
+<head>
+  <title>Vacation Suggester</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.2.1.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Vacation Suggester</h1>
+    <h3>Take this short survey to determine your ideal vacation destination!</h3>
+    <form id="survey">
+      <p>What are you most looking for from your vacation?</p>
+        <select id="goal">
+          <option value="relaxation">Relaxation</option>
+          <option value="adventure">Adventure</option>
+          <option value="culture">Culture</option>
+          <option value="nightlife">Nightlife</option>
+          <option value="shopping">Shopping</option>
+        </select>
+      <p>Where are your favorite vacation destinations?</p>
+        <select id="favorite">
+          <option value="city">City</option>
+          <option value="country">Country</option>
+          <option value="beach">Beach</option>
+          <option value="foreign">Foreign</option>
+          <option value="domestic">Domestic</option>
+        </select>
+      <p>How important is cost to you?</p>
+        <select id="cost">
+          <option value="extremely">Extremely</option>
+          <option value="very">Very</option>
+          <option value="moderately">Moderately</option>
+          <option value="not very">Not very</option>
+          <option value="not at all">Not at all</option>
+        </select>
+      <p>What regional food do you prefer?</p>
+      <select id="food">
+        <option value="mexican">Mexican</option>
+        <option value="irish">Irish</option>
+        <option value="cajon/creole">Cajon/Creole</option>
+        <option value="british">British</option>
+        <option value="indian">Indian</option>
+      </select>
+      <p>Do you have a passport?</p>
+      <select id="passport">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+      <button type="submit" class="btn">Go!</button>
+    </form>
+
+    <div id="output">
+      <p>Your ideal vacation destination is: <span id="destination"></span></p>
+    </div>
+  </div>
+</body>
+</html>
